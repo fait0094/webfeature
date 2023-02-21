@@ -11,5 +11,11 @@ animate("#cameralens2", { opacity: [1, 0] }, { delay: 3, duration: 0.15 });
 animate(
   "#titel",
   { opacity: [0,1], scale:[0.5, 0.75, 1] },
-  {delay:3.5, duration: 1,}
+  {delay:3.55, duration: 1}
+);
+
+animate (
+    ".flash",
+    {opacity:[0,1,0]},
+    {delay:3.51, duration:1}
 );
