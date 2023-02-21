@@ -20,3 +20,5 @@ scroll(
   }),
   { target: document.querySelector("#horisontalscrollsection") }
 );
+
+animate(".flash", { opacity: [0, 1, 0] }, { delay: 3.51, duration: 1 });
