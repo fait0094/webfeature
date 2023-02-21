@@ -1,287 +1,314 @@
 <!DOCTYPE html>
 <html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Webfeature</title>
+  </head>
 
-  <link rel="stylesheet" href="style.css" />
-  <title>Webfeature</title>
-</head>
+  <body class="grid">
+    <main class="prose max-w-none lg:prose-xl">
+      <!-- Hero -->
+      <section
+        class="grid h-screen w-screen items-center justify-items-center bg-black"
+      >
+        <div
+          id="cameralens1"
+          class="h-screen w-screen bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_a.svg')"
+        ></div>
 
-<body class="grid">
-  <main class="">
-    <!-- Hero -->
-    <section id="hero" class="grid h-screen w-screen items-center justify-items-center bg-black">
+        <div
+          id="cameralens2"
+          class="absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_b.svg')"
+        ></div>
 
+        <div
+          id="cameralens3"
+          class="absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_c.svg')"
+        ></div>
 
-      <div id="cameralens1" class="lens absolute w-screen h-screen bg-no-repeat scale-50 bg-center sm:scale-75 "
-        style="background-image:url('svg/lens_d.svg');"></div>
-      <div id="cameralens2" class="lens  absolute w-screen h-screen bg-no-repeat scale-50 bg-center sm:scale-75 "
-        style="background-image:url('svg/lens_c.svg');"></div>
-      <div id="cameralens3" class="lens  h-screen w-screen bg-center bg-no-repeat scale-50  sm:scale-75"
-        style="background-image: url('svg/lens_b.svg')"></div>
-      <div id="cameralens4" class="lens  absolute w-screen h-screen bg-no-repeat scale-50 bg-center sm:scale-75 "
-        style="background-image:url('svg/lens_a.svg')"></div>
-      <h1 id="titel" class="absolute font-Syne text-white">Uperfekt er perfekt</h1>
-    </section>
+        <div
+          id="cameralens4"
+          class="absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_d.svg')"
+        ></div>
+        <h1 class="absolute font-Syne text-white">Uperfekt er perfekt</h1>
+      </section>
 
-    <!-- Intro -->
-    <div class="relative">
-      <img src="img/intro-sektion.webp" alt="Intro sektion" />
-      <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
-        Intro
-      </h1>
-    </div>
-
-    <section class="bg-black p-10 text-white">
-      <div class="grid items-center justify-items-center">
-        <h2 class="uppercase text-white">Intro</h2>
-        <p>
-          Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
-          kort tid siden, så du hans værker et par gange om dagen, hver dag,
-          året rundt. Pierre Falcke var en af verdens bedst sælgende
-          stock-fotografer, og han solgte over 2 millioner fotos om året. Men
-          Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan
-          han ikke fordrage sit eget arbejde.
-        </p>
+      <!-- Intro -->
+      <div class="not-prose relative">
+        <img src="img/intro-sektion.webp" alt="Intro sektion" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          Intro
+        </h1>
       </div>
 
-      <div class="grid gap-10">
-        <h3 class="text-white">Facts om Pierres fotos</h3>
-        <div class="flex justify-center bg-white text-black">
-          <p>Pierre sælger 2 millioner fotos om året</p>
-          <img src="" alt="" />
-        </div>
-
-        <div class="flex justify-center bg-white text-black">
-          <p>Det svarer til én fotolicens hvert 16. sekund</p>
-          <img src="" alt="" />
-        </div>
-
-        <div class="flex justify-center bg-white text-black">
-          <p>Du ser hans fotos ca. 2 gange om dagen</p>
-          <img src="" alt="" />
-        </div>
-      </div>
-
-      <div class="grid lg:grid-cols-2">
-        <div>
-          <h3 class="text-white">Hvad er stock photos?</h3>
+      <section class="bg-black p-10 text-white">
+        <div class="grid items-center justify-items-center">
+          <h2 class="uppercase text-white">Intro</h2>
           <p>
-            Stock-fotos er billeder, der kan købes fra et foto-website. De
-            bruges af aviser, til markedsføring og som indhold på websites. En
-            licens til at bruge et foto koster typisk mellem 10 og 100 kroner,
-            alt afhængig af hvad de skal bruges til. <br />
-            Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er
-            de der billeder af en læge i hvid kittel med stetoskop om halsen
-            på en meget hvid baggrund eller en meget glad dame fra
-            virksomhedens salgs- eller supportafdeling.
+            Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
+            kort tid siden, så du hans værker et par gange om dagen, hver dag,
+            året rundt. Pierre Falcke var en af verdens bedst sælgende
+            stock-fotografer, og han solgte over 2 millioner fotos om året. Men
+            Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk kan
+            han ikke fordrage sit eget arbejde.
           </p>
         </div>
-        <div>
-          <img src="img/stock-1.webp" alt="Stock-foto" />
-          <img src="img/stock-2.webp" alt="Stock-foto" />
-          <img src="img/stock-3.webp" alt="Stock-foto" />
-          <img src="img/stock-4.webp" alt="Stock-foto" />
+
+        <div class="grid gap-10">
+          <h3 class="text-white">Facts om Pierres fotos</h3>
+          <div class="flex justify-center bg-white text-black">
+            <p>Pierre sælger 2 millioner fotos om året</p>
+            <img src="" alt="" />
+          </div>
+
+          <div class="flex justify-center bg-white text-black">
+            <p>Det svarer til én fotolicens hvert 16. sekund</p>
+            <img src="" alt="" />
+          </div>
+
+          <div class="flex justify-center bg-white text-black">
+            <p>Du ser hans fotos ca. 2 gange om dagen</p>
+            <img src="" alt="" />
+          </div>
         </div>
+
+        <div class="grid lg:grid-cols-2">
+          <div>
+            <h3 class="text-white">Hvad er stock photos?</h3>
+            <p>
+              Stock-fotos er billeder, der kan købes fra et foto-website. De
+              bruges af aviser, til markedsføring og som indhold på websites. En
+              licens til at bruge et foto koster typisk mellem 10 og 100 kroner,
+              alt afhængig af hvad de skal bruges til. <br />
+              Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er
+              de der billeder af en læge i hvid kittel med stetoskop om halsen
+              på en meget hvid baggrund eller en meget glad dame fra
+              virksomhedens salgs- eller supportafdeling.
+            </p>
+          </div>
+          <div>
+            <img src="img/stock-1.webp" alt="Stock-foto" />
+            <img src="img/stock-2.webp" alt="Stock-foto" />
+            <img src="img/stock-3.webp" alt="Stock-foto" />
+            <img src="img/stock-4.webp" alt="Stock-foto" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Pierres berømmelse -->
+      <div class="not-prose relative">
+        <img src="img/pierres-beroemmelse-sektion.webp" alt="" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          Pierres berømmelse
+        </h1>
       </div>
-    </section>
+      <section class="">
+        <div class="h-36 bg-gradient-to-b from-black to-white"></div>
+        <div class="p-10">
+          <h2 class="uppercase">Pierres berømmelse</h2>
+          <p>
+            Pierres interesse for foto startede som ganske ung - som 10-årig fik
+            han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var
+            før den digitale revolution, så alle Pierres lommepenge blev brugt
+            på filmruller og fremkaldelse af film. Pierre fortsatte med at
+            fotografere på film op gennem gymnasietiden.
+          </p>
+          <p>
+            Pierre over til digital fotografering i starten af 2000’erne, da han
+            begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en
+            ny verden sig: Reklamefotografering i studie, lyssætning og
+            manipulering af billeder i Photoshop blev hans nye stil.
+          </p>
+          <p>
+            På det tidspunkt var stock-foto industrien i starten af en
+            revolution: De første online stock-foto websites begyndte at komme
+            på markedet, men de store, etablerede spillere på markedet holdt
+            lidt igen. Pierre så det for sig: “Om ganske få år er hele branchen
+            digital, og dem der ikke hopper med på den digitale vogn, lukker.”
+          </p>
+          <p>
+            Så Pierre gav sig selv en udfordring: At blive landets bedst
+            sælgende stock-fotograf. Pierre lejede et gammelt, billigt
+            erhvervslokale i Ishøj industri, fik fløjet billige skuespillere ind
+            fra Polen og Baltikum, og fotograferede 10 timer om dagen.
+          </p>
+          <p>
+            Pierres profeti om stock-foto branchen holdt stik. Pierre var
+            allerede en af landets bedst sælgende stock-fotografer, før han blev
+            færdig med studiet på DMJX.
+          </p>
+        </div>
 
-    <!-- Pierres berømmelse -->
-    <div class="relative">
-      <img src="img/pierres-beroemmelse-sektion.webp" alt="" />
-      <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
-        Pierres berømmelse
-      </h1>
-    </div>
-    <section class="">
-      <div class="h-36 bg-gradient-to-b from-black to-white"></div>
-      <div class="p-10">
-        <h2 class="uppercase">Pierres berømmelse</h2>
-        <p>
-          Pierres interesse for foto startede som ganske ung - som 10-årig fik
-          han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var
-          før den digitale revolution, så alle Pierres lommepenge blev brugt
-          på filmruller og fremkaldelse af film. Pierre fortsatte med at
-          fotografere på film op gennem gymnasietiden.
-        </p>
-        <p>
-          Pierre over til digital fotografering i starten af 2000’erne, da han
-          begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en
-          ny verden sig: Reklamefotografering i studie, lyssætning og
-          manipulering af billeder i Photoshop blev hans nye stil.
-        </p>
-        <p>
-          På det tidspunkt var stock-foto industrien i starten af en
-          revolution: De første online stock-foto websites begyndte at komme
-          på markedet, men de store, etablerede spillere på markedet holdt
-          lidt igen. Pierre så det for sig: “Om ganske få år er hele branchen
-          digital, og dem der ikke hopper med på den digitale vogn, lukker.”
-        </p>
-        <p>
-          Så Pierre gav sig selv en udfordring: At blive landets bedst
-          sælgende stock-fotograf. Pierre lejede et gammelt, billigt
-          erhvervslokale i Ishøj industri, fik fløjet billige skuespillere ind
-          fra Polen og Baltikum, og fotograferede 10 timer om dagen.
-        </p>
-        <p>
-          Pierres profeti om stock-foto branchen holdt stik. Pierre var
-          allerede en af landets bedst sælgende stock-fotografer, før han blev
-          færdig med studiet på DMJX.
-        </p>
+        <div class="h-36 bg-gradient-to-t from-black to-white"></div>
+      </section>
+
+      <!-- En skillevej -->
+      <div class="not-prose relative">
+        <img src="img/en-skillevej-sektion.webp" alt="" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          En skillevej
+        </h1>
       </div>
-
-      <div class="h-36 bg-gradient-to-t from-black to-white"></div>
-    </section>
-
-    <!-- En skillevej -->
-    <div class="relative">
-      <img src="img/en-skillevej-sektion.webp" alt="" />
-      <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
-        En skillevej
-      </h1>
-    </div>
-    <section class="bg-black p-10 text-white">
-      <h2 class="uppercase text-white">En skillevej</h2>
-      <div>
-        <p>
-          Pierre tjente godt det følgende årti. Men stille og roligt begyndte
-          billederne også at give ham kvalme. Han kunne ikke holde sit eget
-          arbejde ud, og måtte finde et modsvar til alle de blankpolerede
-          fotos. Noget han kunne lave med stolthed. Pierre bestluttede sig for
-          at droppe stock-fotos, og vende tilbage til rødderne.
-        </p>
-        <img src="img/placeholder.png" alt="" />
-      </div>
-      <div>
-        <p>
-          Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
-          Glitch art og polaroid fotografering, og begyndte stille og roligt
-          at skabe sig en ny stil - en stil med fokus på det uperfekte, og
-          hvor der er et uforudsigeligt element i det at tage billeder.
-        </p>
-        <img src="img/placeholder.png" alt="" />
-      </div>
-      <div>
-        <p>
-          Pierre tog det endda så vidt at han ikke kun droppede at tage
-          stock-fotos. Han fjernede også alle stock-fotos fra de tjenester,
-          han solgte sine fotos hos. Han gik fra at være en god
-          forretningsdrivende til at blive en vaskeægte boheme-type på
-          rekordtid.
-        </p>
-        <img src="img/placeholder.png" alt="" />
-      </div>
-    </section>
-
-    <!-- En ny begyndelse -->
-    <div class="relative">
-      <img src="img/en-ny-begyndelse-sektion.webp" alt="" />
-      <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform uppercase text-white">
-        En ny begyndelse
-      </h1>
-    </div>
-
-    <section>
-      <div class="h-36 bg-gradient-to-b from-black to-white"></div>
-
-      <div class="p-10">
-        <h2 class="uppercase">En ny begyndelse</h2>
-        <p>
-          Men Pierre er glad for sin beslutning. Indkomsten er lavere nu, men
-          han har stadig lidt penge på kontoen, og studerer nu
-          kunstfotografering på fotoskolen Fatamorgana. Han glæder sig over
-          hver dags kunstneriske eksperimenter, og er for første gang i sit
-          liv rigtig stolt af sit arbejde. Som Pierre selv udtrykker det: “Det
-          interessante ligger i fejlen. Et foto med masser af fejl er
-          interessant. Jeg eksperimenterer med udstyr og teknik, og skaber nye
-          visuelle udtryk. Det uperfekte er perfekt.”
-        </p>
-        <p>
-          Karrieren begynder også så småt også at gå den rette vej: Pierre er
-          begyndt at sælge fotokunst på nettet, og har udgivet sin første
-          foto-bog med titlen “Lidt i fem,” som er en fotografisk odyssé om at
-          slæbe en brandert hjem i de tidlige morgentimer. I forbindelse med
-          udgivelsen af bogen, har han en udstilling på vej i det Kongelige
-          Biblioteks fotoudstilling.
-        </p>
-
+      <section class="bg-black p-10 text-white">
+        <h2 class="uppercase text-white">En skillevej</h2>
         <div>
-          <p class="font-Syne text-3xl font-black">
-            "Nu kan jeg leve livet igen.
+          <p>
+            Pierre tjente godt det følgende årti. Men stille og roligt begyndte
+            billederne også at give ham kvalme. Han kunne ikke holde sit eget
+            arbejde ud, og måtte finde et modsvar til alle de blankpolerede
+            fotos. Noget han kunne lave med stolthed. Pierre bestluttede sig for
+            at droppe stock-fotos, og vende tilbage til rødderne.
+          </p>
+          <img src="img/placeholder.png" alt="" />
+        </div>
+        <div>
+          <p>
+            Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
+            Glitch art og polaroid fotografering, og begyndte stille og roligt
+            at skabe sig en ny stil - en stil med fokus på det uperfekte, og
+            hvor der er et uforudsigeligt element i det at tage billeder.
+          </p>
+          <img src="img/placeholder.png" alt="" />
+        </div>
+        <div>
+          <p>
+            Pierre tog det endda så vidt at han ikke kun droppede at tage
+            stock-fotos. Han fjernede også alle stock-fotos fra de tjenester,
+            han solgte sine fotos hos. Han gik fra at være en god
+            forretningsdrivende til at blive en vaskeægte boheme-type på
+            rekordtid.
+          </p>
+          <img src="img/placeholder.png" alt="" />
+        </div>
+      </section>
+
+      <!-- En ny begyndelse -->
+      <div class="not-prose relative">
+        <img src="img/en-ny-begyndelse-sektion.webp" alt="" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          En ny begyndelse
+        </h1>
+      </div>
+
+      <section>
+        <div class="h-36 bg-gradient-to-b from-black to-white"></div>
+
+        <div class="p-10">
+          <h2 class="uppercase">En ny begyndelse</h2>
+          <p>
+            Men Pierre er glad for sin beslutning. Indkomsten er lavere nu, men
+            han har stadig lidt penge på kontoen, og studerer nu
+            kunstfotografering på fotoskolen Fatamorgana. Han glæder sig over
+            hver dags kunstneriske eksperimenter, og er for første gang i sit
+            liv rigtig stolt af sit arbejde. Som Pierre selv udtrykker det: “Det
+            interessante ligger i fejlen. Et foto med masser af fejl er
+            interessant. Jeg eksperimenterer med udstyr og teknik, og skaber nye
+            visuelle udtryk. Det uperfekte er perfekt.”
+          </p>
+          <p>
+            Karrieren begynder også så småt også at gå den rette vej: Pierre er
+            begyndt at sælge fotokunst på nettet, og har udgivet sin første
+            foto-bog med titlen “Lidt i fem,” som er en fotografisk odyssé om at
+            slæbe en brandert hjem i de tidlige morgentimer. I forbindelse med
+            udgivelsen af bogen, har han en udstilling på vej i det Kongelige
+            Biblioteks fotoudstilling.
           </p>
 
-          <p class="font-Syne text-3xl font-black">Jeg føler mig frisk.</p>
+          <div>
+            <p class="font-Syne text-3xl font-black">
+              "Nu kan jeg leve livet igen.
+            </p>
 
-          <p class="font-Syne text-3xl font-black">Jeg føler mig genfødt."</p>
+            <p class="font-Syne text-3xl font-black">Jeg føler mig frisk.</p>
+
+            <p class="font-Syne text-3xl font-black">Jeg føler mig genfødt."</p>
+          </div>
         </div>
-      </div>
 
-      <div class="bg-gradient-to-t from-black to-white">
-        <div class="grid p-10 lg:grid-cols-3 lg:gap-5">
-          <img src="img/placeholder.png" alt="" />
-          <img src="img/placeholder.png" alt="" />
-          <img src="img/placeholder.png" alt="" />
-          <img src="img/placeholder.png" alt="" />
-          <img src="img/placeholder.png" alt="" />
-          <img src="img/placeholder.png" alt="" />
+        <div class="bg-gradient-to-t from-black to-white">
+          <div class="grid p-10 lg:grid-cols-3 lg:gap-5">
+            <img src="img/placeholder.png" alt="" />
+            <img src="img/placeholder.png" alt="" />
+            <img src="img/placeholder.png" alt="" />
+            <img src="img/placeholder.png" alt="" />
+            <img src="img/placeholder.png" alt="" />
+            <img src="img/placeholder.png" alt="" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Infobokse -->
-    <section>
-      <div>
-        <h1>Infobokse</h1>
-        <img src="" alt="" />
-      </div>
+      <!-- Infobokse -->
+      <section>
+        <div>
+          <h1>Infobokse</h1>
+          <img src="" alt="" />
+        </div>
 
-      <div>
-        <h2>Analog Fotografering</h2>
-        <p>
-          Analog fotografering stiger for tiden i popularitet, specielt blandt
-          unge, og prisen på filmruller og vintage-kameraer skyder i vejret.
-          Mange fotografer synes at film-fotografering er mere ægte har mere
-          “sjæl.” Analog fotografering er langsommmere, hvert enkelt billede
-          koster penge, og man bliver nødt til at overveje motiv og lys
-          grundigere før der skydes - tænk før du trykker.
-        </p>
-        <img src="" alt="" />
-      </div>
+        <div>
+          <h2>Analog Fotografering</h2>
+          <p>
+            Analog fotografering stiger for tiden i popularitet, specielt blandt
+            unge, og prisen på filmruller og vintage-kameraer skyder i vejret.
+            Mange fotografer synes at film-fotografering er mere ægte har mere
+            “sjæl.” Analog fotografering er langsommmere, hvert enkelt billede
+            koster penge, og man bliver nødt til at overveje motiv og lys
+            grundigere før der skydes - tænk før du trykker.
+          </p>
+          <img src="" alt="" />
+        </div>
 
-      <div>
-        <h2>Glitch Art</h2>
-        <p>
-          Når der sker en teknisk fejl i et medie/en kommunikationskanal
-          kaldes det en glitch. Glitch art går ud på at dyrke fejlene for at
-          skabe kunst. En meget typisk glitch er små analoge eller digitale
-          fejl i farvegengivelsen af billeder.
-        </p>
-        <img src="" alt="" />
-      </div>
+        <div>
+          <h2>Glitch Art</h2>
+          <p>
+            Når der sker en teknisk fejl i et medie/en kommunikationskanal
+            kaldes det en glitch. Glitch art går ud på at dyrke fejlene for at
+            skabe kunst. En meget typisk glitch er små analoge eller digitale
+            fejl i farvegengivelsen af billeder.
+          </p>
+          <img src="" alt="" />
+        </div>
 
-      <div>
-        <h2>Lomografi</h2>
-        <p>
-          Et lomografi er egentlig bare et fotografi skudt uden videre
-          omtanke, og med noget foto-udstyr af ret alternativ kvalitet.
-          Lomografier skydes ofte på gode, gammeldags filmruller, men kan også
-          skyde digitalt. Det kan måske lyde lidt anti-fotograf-agtigt. Men en
-          del foto-entusiaster dyrker den slags, og ser det som en foto-genre
-          eller endda en livsstil.
-        </p>
-        <img src="" alt="" />
-      </div>
-    </section>
-  </main>
-  <script type="module" src="./main.js"></script>
-</body>
-
+        <div>
+          <h2>Lomografi</h2>
+          <p>
+            Et lomografi er egentlig bare et fotografi skudt uden videre
+            omtanke, og med noget foto-udstyr af ret alternativ kvalitet.
+            Lomografier skydes ofte på gode, gammeldags filmruller, men kan også
+            skyde digitalt. Det kan måske lyde lidt anti-fotograf-agtigt. Men en
+            del foto-entusiaster dyrker den slags, og ser det som en foto-genre
+            eller endda en livsstil.
+          </p>
+          <img src="" alt="" />
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
