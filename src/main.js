@@ -22,3 +22,11 @@ scroll(
 );
 
 animate(".flash", { opacity: [0, 1, 0] }, { delay: 3.51, duration: 1 });
+
+const items_2 = document.querySelectorAll("#horisontalliste_2 li");
+scroll(
+  animate("#horisontalliste_2", {
+    transform: ["none", `translateX(-${items.length - 1}00vw)`],
+  }),
+  { target: document.querySelector("#horisontalscrollsection_2") }
+);
