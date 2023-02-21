@@ -1,14 +1,6 @@
 import "./style.css";
 import { animate, stagger, inView, scroll, timeline } from "motion";
 
-// animate(
-//     "div.lens",
-//     { opacity: [1, 0 ] },
-//     {
-//         delay: stagger(1, { start: 2 })
-//     },
-//     { direction: "reverse" },
-//   )
 
 animate("#cameralens4", { opacity: [1, 0] }, { delay: 2, duration: 0.15 });
 
