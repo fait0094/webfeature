@@ -13,6 +13,8 @@ animate(
   { delay: 3.5, duration: 1 }
 );
 
+animate(".flash", { opacity: [0, 1, 0] }, { delay: 3.51, duration: 1 });
+
 const items = document.querySelectorAll("#horisontalliste li");
 scroll(
   animate("#horisontalliste", {
@@ -20,8 +22,6 @@ scroll(
   }),
   { target: document.querySelector("#horisontalscrollsection") }
 );
-
-animate(".flash", { opacity: [0, 1, 0] }, { delay: 3.51, duration: 1 });
 
 const items_2 = document.querySelectorAll("#horisontalliste_2 li");
 scroll(
