@@ -30,11 +30,3 @@ scroll(
   }),
   { target: document.querySelector("#horisontalscrollsection_2") }
 );
-
-const items_3 = document.querySelectorAll("#horisontalliste_3 li");
-scroll(
-  animate("#horisontalliste_3", {
-    transform: ["none", `translateX(-${items.length - 1}00vw)`],
-  }),
-  { target: document.querySelector("#horisontalscrollsection_3") }
-);
