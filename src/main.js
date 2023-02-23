@@ -38,3 +38,17 @@ scroll(
   }),
   { target: document.querySelector("#horisontalscrollsection_3") }
 );
+
+
+inView( ".contentinview1" , () =>{
+  animate( ".contentinview1", { x: [-2000, 0 ] }, { delay:0.5, duration: 1 })
+})
+
+inView( ".contentinview2" , () =>{
+  animate( ".contentinview2", { x: [2000, 0 ] }, { delay:0.5, duration: 1 })
+})
+
+inView( ".contentinview3" , () =>{
+  animate( ".contentinview3", { x: [-2000, 0 ] }, { delay:0.5, duration: 1 })
+})
+
