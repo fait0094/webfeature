@@ -26,7 +26,7 @@ scroll(
 const items_2 = document.querySelectorAll("#horisontalliste_2 li");
 scroll(
   animate("#horisontalliste_2", {
-    transform: ["none", `translateX(-${items.length - 1}00vw)`],
+    transform: ["none", `translateX(-${items_2.length - 1}00vw)`],
   }),
   { target: document.querySelector("#horisontalscrollsection_2") }
 );
@@ -34,7 +34,7 @@ scroll(
 const items_3 = document.querySelectorAll("#horisontalliste_3 li");
 scroll(
   animate("#horisontalliste_3", {
-    transform: ["none", `translateX(-${items.length - 1}00vw)`],
+    transform: ["none", `translateX(-${items_3.length - 1}00vw)`],
   }),
   { target: document.querySelector("#horisontalscrollsection_3") }
 );
