@@ -51,14 +51,14 @@ inView(".contentinview3", () => {
   animate(".contentinview3", { x: [-2000, 0] }, { delay: 0.5, duration: 1 });
 });
 
-inView(
-  ".staggeranimation",
+scroll(
+  ".citat",
   animate(
-    ".staggeranimation p",
+    ".citat",
     { opacity: [0, 1] },
     {
-      delay: stagger(0.5, { start: 0.5 }),
-    }
+      delay: stagger(1, { start: 2  }),
+    },
+    { repeat: Infinity }
   )
 );
-
