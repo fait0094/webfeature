@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <title>Webfeature</title>
+    <script type="module" crossorigin src="./assets/main-1f5e5ea6.js"></script>
+    <link rel="stylesheet" href="./assets/index-c4ae8b37.css">
+  </head>
+
+  <body class="grid">
+    <main class="prose max-w-none overflow-clip lg:prose-xl">
+      <!-- Hero -->
+      <section
+        class="not-prose grid h-screen w-full items-center justify-items-center bg-black"
+      >
+        <div
+          id="cameralens1"
+          class="lens absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_d.svg')"
+        ></div>
+        <div
+          id="cameralens2"
+          class="lens absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_c.svg')"
+        ></div>
+        <div
+          id="cameralens3"
+          class="lens h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_b.svg')"
+        ></div>
+        <div
+          id="cameralens4"
+          class="lens absolute h-screen w-screen scale-50 bg-center bg-no-repeat sm:scale-75"
+          style="background-image: url('svg/lens_a.svg')"
+        ></div>
+
+        <span id="scrollicon" class="h-4 w-4 border-l-2 border-b-2 border-solid border-white relative -rotate-45 bottom-20 " > </span>
+
+        <h1 id="titel" class="not-prose absolute text-center font-Syne uppercase text-white sm:text-5xl">Uperfekt er perfekt</h1>
+
+        <div class="flash absolute h-full w-full bg-white"></div>
+      </section>
+
+      <!-- Intro -->
+      <div class="not-prose relative">
+        <img src="img/intro-sektion.webp" alt="Intro sektion" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          Intro
+        </h1>
+      </div>
+
+      <div class="grid bg-black p-10 text-white lg:justify-center">
+        <div class="lg:max-w-6xl">
+          <div class="grid justify-center pt-40">
+            <!-- <h2 class="uppercase text-white">Intro</h2> -->
+            <p class="max-w-prose">
+              Pierre Falcke. Du ved formentligt ikke hvem han er. Men indtil for
+              kort tid siden, så du hans værker et par gange om dagen, hver dag,
+              året rundt. Pierre Falcke var en af verdens bedst sælgende
+              stock-fotografer, og han solgte over 2 millioner fotos om året.
+              Men Pierre kunne ikke drømme om at bruge sine egne fotos - faktisk
+              kan han ikke fordrage sit eget arbejde.
+            </p>
+          </div>
+
+          <section
+            id="horisontalscrollsection"
+            class="not-prose relative h-[300vh] bg-black"
+          >
+            <ul id="horisontalliste" class="sticky top-0 flex list-none">
+              <li
+                class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+              >
+                <div class="flex justify-center bg-white p-5 text-black">
+                  <p>Pierre sælger 2 millioner fotos om året</p>
+                </div>
+              </li>
+
+              <li
+                class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+              >
+                <div class="flex justify-center bg-white p-5 text-black">
+                  <p>Det svarer til én fotolicens hvert 16. sekund</p>
+                </div>
+              </li>
+
+              <li
+                class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+              >
+                <div class="flex justify-center bg-white p-5 text-black">
+                  <p>Du ser hans fotos ca. 2 gange om dagen</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <div
+            class="grid gap-x-20 bg-black p-10 text-white lg:grid-cols-2 lg:justify-center lg:gap-20"
+          >
+            <div id="stockfototext-container">
+              <div class="sticky top-1/4">
+                <h3 class="text-white">Hvad er stock-fotos?</h3>
+                <p>
+                  Stock-fotos er billeder, der kan købes fra et foto-website. De
+                  bruges af aviser, til markedsføring og som indhold på
+                  websites. En licens til at bruge et foto koster typisk mellem
+                  10 og 100 kroner, alt afhængig af hvad de skal bruges til.
+                  <br /><br />
+                  Stock-fotos bliver ofte kritiseret for at være uden sjæl - det
+                  er de der billeder af en læge i hvid kittel med stetoskop om
+                  halsen på en meget hvid baggrund eller en meget glad dame fra
+                  virksomhedens salgs- eller supportafdeling.
+                </p>
+              </div>
+            </div>
+            <div id="stockfotoimgcontainer" class="mt-96 pt-96">
+              <img src="img/stock-1.webp" alt="Stock-foto" />
+              <img src="img/stock-2.webp" alt="Stock-foto" />
+              <img src="img/stock-3.webp" alt="Stock-foto" />
+              <img src="img/stock-4.webp" alt="Stock-foto" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pierres berømmelse -->
+      <div class="not-prose relative">
+        <img src="img/pierres-beroemmelse-sektion.webp" alt="" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          Pierres berømmelse
+        </h1>
+      </div>
+
+      <section id="horisontalscrollsection_2" class="relative h-[150vh] p-10">
+        <!-- <h2 class="uppercase">Pierres berømmelse</h2> -->
+        <ul
+          id="horisontalliste_2"
+          class="sticky top-0 flex list-none"
+          style="padding-left: 10em"
+        >
+          <li
+            class="mr-72 flex h-[70vh] w-[35vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-center justify-center overflow-hidden"
+          >
+            <p>
+              Pierres interesse for foto startede som ganske ung - som 10-årig
+              fik han sin fars gamle Rollei-kamera, og begyndte at skyde løs.
+              Det var før den digitale revolution, så alle Pierres lommepenge
+              blev brugt på filmruller og fremkaldelse af film. Pierre fortsatte
+              med at fotografere på film op gennem gymnasietiden.
+            </p>
+          </li>
+          <li
+            class="mr-72 flex h-[70vh] w-[35vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+          >
+            <p>
+              Pierre over til digital fotografering i starten af 2000’erne, da
+              han begyndte at studere fotografisk kommunikation på DMJX. Her
+              åbnede en ny verden sig: Reklamefotografering i studie, lyssætning
+              og manipulering af billeder i Photoshop blev hans nye stil.
+            </p>
+          </li>
+          <li
+            class="mr-72 flex h-[70vh] w-[35vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+          >
+            <p>
+              På det tidspunkt var stock-foto industrien i starten af en
+              revolution: De første online stock-foto websites begyndte at komme
+              på markedet, men de store, etablerede spillere på markedet holdt
+              lidt igen. Pierre så det for sig: “Om ganske få år er hele
+              branchen digital, og dem der ikke hopper med på den digitale vogn,
+              lukker.”
+            </p>
+          </li>
+          <li
+            class="mr-72 flex h-[70vh] w-[35vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+          >
+            <p>
+              Så Pierre gav sig selv en udfordring: At blive landets bedst
+              sælgende stock-fotograf. Pierre lejede et gammelt, billigt
+              erhvervslokale i Ishøj industri, fik fløjet billige skuespillere
+              ind fra Polen og Baltikum, og fotograferede 10 timer om dagen.
+            </p>
+          </li>
+          <li
+            class="mr-72 flex h-[70vh] w-[35vw] flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+          >
+            <p>
+              Pierres profeti om stock-foto branchen holdt stik. Pierre var
+              allerede en af landets bedst sælgende stock-fotografer, før han
+              blev færdig med studiet på DMJX.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- <section>
+        <div class="h-36 bg-gradient-to-b from-black to-white"></div>
+        <div class="p-10">
+          <h2 class="uppercase">Pierres berømmelse</h2>
+          <p>
+            Pierres interesse for foto startede som ganske ung - som 10-årig fik
+            han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var
+            før den digitale revolution, så alle Pierres lommepenge blev brugt
+            på filmruller og fremkaldelse af film. Pierre fortsatte med at
+            fotografere på film op gennem gymnasietiden.
+          </p>
+          <p>
+            Pierre over til digital fotografering i starten af 2000’erne, da han
+            begyndte at studere fotografisk kommunikation på DMJX. Her åbnede en
+            ny verden sig: Reklamefotografering i studie, lyssætning og
+            manipulering af billeder i Photoshop blev hans nye stil.
+          </p>
+          <p>
+            På det tidspunkt var stock-foto industrien i starten af en
+            revolution: De første online stock-foto websites begyndte at komme
+            på markedet, men de store, etablerede spillere på markedet holdt
+            lidt igen. Pierre så det for sig: “Om ganske få år er hele branchen
+            digital, og dem der ikke hopper med på den digitale vogn, lukker.”
+          </p>
+          <p>
+            Så Pierre gav sig selv en udfordring: At blive landets bedst
+            sælgende stock-fotograf. Pierre lejede et gammelt, billigt
+            erhvervslokale i Ishøj industri, fik fløjet billige skuespillere ind
+            fra Polen og Baltikum, og fotograferede 10 timer om dagen.
+          </p>
+          <p>
+            Pierres profeti om stock-foto branchen holdt stik. Pierre var
+            allerede en af landets bedst sælgende stock-fotografer, før han blev
+            færdig med studiet på DMJX.
+          </p>
+        </div>
+
+        <div class="h-36 bg-gradient-to-t from-black to-white"></div>
+      </section> -->
+
+      <!-- En skillevej -->
+      <div class="not-prose relative">
+        <img src="img/en-skillevej-sektion.webp" alt="En skillevej sektion" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          En skillevej
+        </h1>
+      </div>
+
+      <section class="grid grid-cols-1 bg-black p-10 text-white lg:gap-y-10">
+        <div class="grid lg:justify-center">
+          <div class="lg:max-w-6xl">
+            <!-- <h2 class="uppercase text-white">En skillevej</h2> -->
+            <div
+              class="contentinview1 grid h-[100vh] items-center lg:grid-cols-2 lg:gap-20"
+            >
+              <p>
+                Pierre tjente godt det følgende årti. Men stille og roligt
+                begyndte billederne også at give ham kvalme. Han kunne ikke
+                holde sit eget arbejde ud, og måtte finde et modsvar til alle de
+                blankpolerede fotos. Noget han kunne lave med stolthed. Pierre
+                bestluttede sig for at droppe stock-fotos, og vende tilbage til
+                rødderne.
+              </p>
+              <img src="img/en-skillevej-1.webp" alt="ph" />
+            </div>
+            <div
+              class="contentinview2 grid h-[100vh] items-center lg:grid-cols-2 lg:gap-20"
+            >
+              <img src="img/en-skille-vej-2.webp" alt="ph" />
+              <p>
+                Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
+                Glitch art og polaroid fotografering, og begyndte stille og
+                roligt at skabe sig en ny stil - en stil med fokus på det
+                uperfekte, og hvor der er et uforudsigeligt element i det at
+                tage billeder.
+              </p>
+            </div>
+            <div
+              class="contentinview3 grid h-[100vh] items-center lg:grid-cols-2 lg:gap-20"
+            >
+              <p>
+                Pierre tog det endda så vidt at han ikke kun droppede at tage
+                stock-fotos. Han fjernede også alle stock-fotos fra de
+                tjenester, han solgte sine fotos hos. Han gik fra at være en god
+                forretningsdrivende til at blive en vaskeægte boheme-type på
+                rekordtid.
+              </p>
+              <img src="img/en-skille-vej-3.webp" alt="ph" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- En ny begyndelse -->
+      <div class="not-prose relative">
+        <img src="img/en-ny-begyndelse-sektion.webp" alt="ph" />
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+        >
+          En ny begyndelse
+        </h1>
+      </div>
+
+      <section>
+        <div class="h-36 bg-gradient-to-b from-black to-white"></div>
+
+        <div class="grid justify-center">
+          <div class="grid p-10 lg:max-w-6xl">
+            <!-- <h2 class="uppercase">En ny begyndelse</h2> -->
+            <p class="max-w-prose">
+              Men Pierre er glad for sin beslutning. Som Pierre selv udtrykker
+              det: “Det interessante ligger i fejlen. Et foto med masser af fejl
+              er interessant. Jeg eksperimenterer med udstyr og teknik, og
+              skaber nye visuelle udtryk. Det uperfekte er perfekt.”
+            </p>
+            <p class="max-w-prose">
+              Karrieren begynder også så småt også at gå den rette vej: Pierre
+              er begyndt at sælge fotokunst på nettet, og har udgivet sin første
+              foto-bog med titlen “Lidt i fem,” som er en fotografisk odyssé om
+              at slæbe en brandert hjem i de tidlige morgentimer. I forbindelse
+              med udgivelsen af bogen, har han en udstilling på vej i det
+              Kongelige Biblioteks fotoudstilling.
+            </p>
+
+            <div>
+              <div
+                class="staggeranimation flex h-[70vh] flex-col justify-center py-24 text-center"
+              >
+                <p class="citat font-Syne text-5xl font-black">
+                  "Nu kan jeg leve livet igen.
+                </p>
+
+                <p class="citat font-Syne text-5xl font-black">
+                  Jeg føler mig frisk.
+                </p>
+
+                <p class="citat font-Syne text-5xl font-black">
+                  Jeg føler mig genfødt."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="not-prose bg-gradient-to-t from-black to-white lg:pb-32">
+          <div
+            class="grid items-stretch gap-5 p-10 lg:grid-cols-3 lg:grid-rows-3"
+          >
+            <img
+              class="object-cover lg:self-stretch"
+              src="img/galleri-1.webp"
+              alt="ph"
+            />
+            <img
+              class="object-cover lg:self-stretch"
+              src="img/galleri-2.webp"
+              alt="ph"
+            />
+            <img
+              class="object-cover lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:self-stretch"
+              src="img/galleri-3.webp"
+              alt="ph"
+            />
+            <img
+              class="object-cover lg:row-span-2 lg:self-stretch"
+              src="img/galleri-4.webp"
+              alt="ph"
+            />
+            <img
+              class="object-cover lg:self-stretch"
+              src="img/galleri-5.webp"
+              alt="ph"
+            />
+            <img
+              class="object-cover lg:col-span-2 lg:col-start-2 lg:row-start-3 lg:self-stretch"
+              src="img/galleri-6.webp"
+              alt="ph"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Infobokse -->
+      <section>
+        <section
+          id="horisontalscrollsection_3"
+          class="not-prose relative h-[500vh]"
+        >
+          <ul id="horisontalliste_3" class="sticky top-0 flex list-none">
+            <li
+              class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+            >
+              <div class="not-prose relative">
+                <img
+                  src="img/infobokse.webp"
+                  alt="Your Image 1"
+                  class="h-auto w-full"
+                />
+                <img
+                  src="svg/filmrulle-ny.svg"
+                  alt="Your Image 2"
+                  class="absolute top-0 left-0 h-auto w-full"
+                />
+                <h1
+                  class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform text-3xl uppercase text-white lg:text-7xl"
+                >
+                  Infobokse
+                </h1>
+              </div>
+            </li>
+
+            <li
+              class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+            >
+              <div class="flex items-center justify-center">
+                <div class="not-prose relative">
+                  <img
+                    src="img/analog-sort.webp"
+                    alt=""
+                    class="h-auto w-full"
+                  />
+                  <img
+                    src="svg/filmrulle-ny.svg"
+                    alt=""
+                    class="absolute top-0 left-0 h-auto w-full"
+                  />
+                </div>
+                <div class="absolute w-full max-w-prose">
+                  <h2 class="uppercase text-white">Analog Fotografering</h2>
+                  <p class="text-white">
+                    Analog fotografering stiger for tiden i popularitet,
+                    specielt blandt unge. Mange fotografer synes at
+                    film-fotografering er mere ægte har mere “sjæl.” Hvert
+                    enkelt billede koster penge, og man skal overveje motiv og
+                    lys grundigere før der skydes - tænk før du trykker.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li
+              class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+            >
+              <div class="flex items-center justify-center">
+                <div class="not-prose relative">
+                  <img
+                    src="img/glitch-sort.webp"
+                    alt=""
+                    class="h-auto w-full"
+                  />
+                  <img
+                    src="svg/filmrulle-ny.svg"
+                    alt=""
+                    class="absolute top-0 left-0 h-auto w-full"
+                  />
+                </div>
+                <div class="absolute w-full max-w-prose">
+                  <h2 class="uppercase text-white">Glitch Art</h2>
+                  <p class="text-white">
+                    Når der sker en teknisk fejl i et medie/en
+                    kommunikationskanal kaldes det en glitch. Glitch art går ud
+                    på at dyrke fejlene for at skabe kunst. En meget typisk
+                    glitch er små analoge eller digitale fejl i farvegengivelsen
+                    af billeder.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li
+              class="flex h-[100vh] w-full flex-auto flex-shrink-0 flex-grow-0 flex-col items-start justify-center overflow-hidden"
+            >
+              <div class="flex items-center justify-center">
+                <div class="not-prose relative">
+                  <img src="img/lomo-sort.webp" alt="" class="h-auto w-full" />
+                  <img
+                    src="svg/filmrulle-ny.svg"
+                    alt=""
+                    class="absolute top-0 left-0 h-auto w-full"
+                  />
+                </div>
+                <div class="absolute mx-auto w-full max-w-prose">
+                  <h2 class="uppercase text-white">Lomografi</h2>
+                  <p class="text-white">
+                    Et lomografi er et fotografi skudt uden videre omtanke, og
+                    med noget foto-udstyr af ret alternativ kvalitet.
+                    Lomografier skydes ofte på gode, gammeldags filmruller, men
+                    kan også skyde digitalt. Det kan måske lyde lidt
+                    anti-fotograf-agtigt. Men en del foto-entusiaster dyrker den
+                    slags, og ser det som en foto-genre eller endda en livsstil.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    
+  </body>
+</html>
